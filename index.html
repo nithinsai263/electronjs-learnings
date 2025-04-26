@@ -6,46 +6,41 @@
     <title>Transparent Mover</title>
     <style>
         html, body {
-            /* Ensure HTML and Body take full height and have no margin */
+           
             height: 100%;
             width: 100%;
             margin: 0;
             padding: 0;
-            overflow: hidden; /* Prevent scrollbars */
+            overflow: hidden; 
         }
         body {
             font-family: sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            /* *** KEY CHANGE: Make the body background transparent *** */
+           
             background-color: transparent;
-            /* Make text visible against various backgrounds */
-            color: #FFF; /* White text */
-            text-shadow: 1px 1px 2px black, 0 0 5px black; /* Add shadow for contrast */
+           
+            color: #FFF; 
+            text-shadow: 1px 1px 2px black, 0 0 5px black; 
             text-align: center;
-             /* Prevent text selection which can look weird on transparent bg */
+            
             user-select: none;
         }
         .content {
              padding: 20px;
-             /* Optional: Remove or style the border differently */
-             /* border: 2px dashed rgba(255, 255, 255, 0.5); */
-             /* border-radius: 10px; */
+            
         }
-         /* Since the window is frameless, add this to make the window draggable */
-        /* Note: This is standard CSS, not related to the core request */
-        /* You might not need draggability if you only move with keys */
+         
          body {
-            -webkit-app-region: drag; /* Allows dragging the body */
+            -webkit-app-region: drag; 
          }
-         /* Make elements inside non-draggable if needed */
-         /* h1, p { -webkit-app-region: no-drag; } */
+         
     </style>
 </head>
 <body>
     <div class="content">
-        <h1>Transparent & On Top!</h1>
+        <h1>TOP G</h1>
         <p>Use Ctrl + Arrow Keys to move.</p>
         <p>Press Alt + F4 to close (even if not focused).</p>
     </div>
