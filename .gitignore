@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Electron rebuild artifacts
+*.node
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# VSCode settings (optional, if you use it)
+.vscode/
+
+# Electron cache
+.cache/
+.electron/
+
+# Compiled preload scripts (if you ever compile them)
+preload.js.map
+preload.ts.map
+
+# Native build tools leftovers
+*.pdb
+*.obj
+*.sln
+*.ncb
+*.suo
+*.vcxproj*
+*.log
+*.idb
+*.ipch
+
+# Windows installer stuff if you generate exe
+*.exe
+*.msi
+release/
+
+# Mac app builds if you ever build for macOS
+*.app
+
+# Ignore npm package-lock if you want clean installs every time (optional)
+# package-lock.json
